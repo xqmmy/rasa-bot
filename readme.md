@@ -1,16 +1,16 @@
 
-##启动步骤
+## 启动步骤
 
 没有cpu
 
-####第一步
+#### 第一步
 
 bert-serving-start  -pooling_layer -4 -3 -2 -1   -model_dir=C:\chinese_L-12_H-768_A-12    -num_worker=1    -max_seq_len=16 -cpu
 
-####第二步
+#### 第二步
 rasa run --enable-api
 
-####第三步：
+#### 第三步：
 
 rasa run actions
 
