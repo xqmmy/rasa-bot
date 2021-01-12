@@ -103,8 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# mydata
-.data/nlu
 
 # mdoc
 .docs
