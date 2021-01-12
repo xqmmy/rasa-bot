@@ -1,0 +1,288 @@
+
+*{
+	box-sizing:border-box;
+}
+a{
+	cursor: pointer;
+}
+.logo{
+	padding: 10px;
+}
+.logo img{
+	height: 40px;
+}
+.layui-nav{
+	border-radius: 0;
+}
+.top_na{
+	display: flex;
+    justify-content: space-between;
+}
+.userD a{
+	display: inline-block !important;
+}
+.leftBtn{
+	cursor: pointer;
+	padding: 0 10px !important;
+}
+.leftBtn i{
+	font-size: 20px;
+}
+.head ,.content{
+	display: flex;
+}
+.rightContent{
+	padding: 20px;
+}
+.layui-form-label{
+	padding: 9px 15px 9px 0;
+}
+#warningMsg{
+	color: red;
+	font-size: 13px;
+}
+.msgWin, .WO, .djs, .csWindow, .tempzdList {
+	margin: auto;
+}
+.msgWin2, .WO2, .djs2, .csWindow2, .tempzdList2{
+	display: block !important;
+}
+/* 弹窗 */
+.msgWin{
+	padding: 15px;
+}
+.msgname{
+	margin-right: 10px;
+	font-size: 18px;
+}
+.msgtime{
+	font-size: 14px;
+	color: #666;
+}
+.msgText{
+	font-size: 16px;
+	line-height: 22px;
+}
+.msgnameInfo{
+	margin-bottom: 10px;
+}
+.msgContent{
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px dashed #ccc;
+}
+.fcList{
+	padding: 20px 0;
+}
+.fcList li{
+	border-bottom: 1px dashed #ccc !important;
+	border-left: 5px solid #ccc;
+	margin-bottom: 15px;
+	transition:all .3s;
+}
+.fcList li:hover{
+	border-left-color: #009688;
+}
+.fcList li a{
+	display: inline-block;
+	width: calc(100% - 50px);
+	padding: 10px 0 10px 15px;
+}
+.fcList li span{
+	color: red;
+	text-align: center;
+	width: 48px;
+	display: inline-block;
+	cursor: pointer;
+}
+.fcList li span:hover{
+	opacity: .6;
+}
+/* 流程图 */
+#Fchart{
+	margin: 0 !important;
+}
+.GooFlow_work{
+	margin: 0 !important;
+}
+.fc{
+	padding: 10px 0;
+}
+.lctt{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+body,html{
+	height: 100%;
+}
+.outDiv{
+	height: calc(100% - 60px);
+}
+.content{
+	height: 100%;
+}
+.woDiv{
+	padding: 15px;
+}
+.edit, .delete, .view {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 26px;
+	font-size: 22px;
+	cursor: pointer;
+	padding: 2px;
+}
+.edit:hover, .delete:hover, .view:hover{
+	opacity: .7;
+}
+.edit {
+	color: #179217;
+	border-color: #179217;
+}
+.delete {
+	color: #ce0d0d;
+	border-color: #ce0d0d;
+}
+.view {
+	color: #204aa9;
+	border-color: #204aa9;
+}
+.icon {
+	fill: currentColor;
+	overflow: hidden;
+}
+.topNav .icon {
+	width: 18px;
+	height: 18px;
+	color: #fff;
+	color: rgba(255,255,255,.7);
+	vertical-align: -5px;
+	margin-right:8px;
+}
+.content {
+	transition: all .7s;
+}
+.Mbtn{
+	position:fixed;
+	left:10px;
+	bottom:50px;
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	border-radius:5px;
+	color:#fff;
+	font-size:22px;
+	background:rgba(0,0,0,.5);
+	cursor:pointer;
+	display:none;
+	z-index:2;
+}
+.Mbtn i{
+	font-size:26px;
+}
+.Mbg{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	display:none;
+}
+.zan{
+	color: #d8d8d8;
+	font-size: 20px;
+	cursor: pointer;
+	transition:all .5s;
+}
+.zan:hover{
+	color: #33A9B7;
+}
+.flowBth{
+	padding: 5px 15px;
+	border-radius: 30px;
+	color: #fff;
+	border:none;
+	margin: 10px 10px 0 0;
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,.2);
+	cursor: pointer;
+}
+.flowBth:hover{
+	opacity: .7;
+}
+.gdTable{
+	border-top:1px solid #e2e2e2;
+	border-left:1px solid #e2e2e2;
+	vertical-align: center;
+}
+.gdTable td{
+	border-bottom: 1px solid #e2e2e2;
+	border-right:1px solid #e2e2e2;
+	padding: 4px 10px;
+}
+.gdTable td:first-child{
+	width: 25px;
+	color: #999;
+}
+.gdTable td:nth-child(2){
+	width: 20%;
+}
+.gdTable td:nth-child(3){
+	width: calc(80% - 45px);
+}
+.gdmc div{
+	line-height: 22px;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.gdmc div span:first-child{
+	width: 80px;
+}
+.gdmc div span:nth-child(2){
+	width: calc(100% - 85px);
+}
+.bthSub{
+	padding: 6px 20px;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	border:none;
+	margin-top: 10px;
+}
+.bthEdit{
+	padding: 6px 20px;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	border:none;
+	margin-top: 10px;
+	background: #e4711f;
+	margin-right: 10px;
+}
+@media(max-width:767px) {
+	.layui-nav{
+		padding:0;
+	}
+	.layui-nav .layui-nav-item a{
+		padding:0 15px;
+	}
+	.layui-side{
+		left:-230px;
+		transition:all .7s;
+		position:absolute;
+	}
+	.content{
+		display:block;
+	}
+	.Mbtn{
+		display:block;
+	}
+}

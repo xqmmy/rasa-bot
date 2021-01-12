@@ -1,0 +1,46 @@
+/* .csWindow{
+	position: fixed;
+	bottom: 0;
+	right:0;
+	width: 400px;
+	height: 600px;
+	border:1px solid #ccc;
+	box-shadow: 0 0 10px 6px rgba(0,0,0,.1);
+}
+.csHeader{
+	display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.csName{
+	font-size: 18px;
+	padding: 0 15px;
+}
+.csClose{
+	width: 50px;
+	text-align: center;
+}
+.csClose i{
+	font-size: 26px;
+	cursor: pointer;
+} */
+.csBtn{
+	position: fixed;
+	bottom: 50px;
+	right:10px;
+	background: #009688;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.csBtn i{
+	font-size: 26px;
+	color: #fff;
+}
+.csBtn:hover{
+	opacity: .8;

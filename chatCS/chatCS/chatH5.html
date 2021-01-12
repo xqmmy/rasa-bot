@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客服首页</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/layui-src/dist/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/csWindow.css">
+	<link rel="stylesheet" type="text/css" href="css/color.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/layui-src/dist/css/layui.mobile.css">
+	<style class="style">
+    .layui-layim-min {
+        display: none !important;
+    }
+
+    .editI {
+        width: 50px;
+        height: 50px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .bqdiv p {
+        font-size: 14px;
+    }
+
+    .bqdiv div {
+        text-align: center;
+    }
+
+    .pf {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+        transition: all .6s;
+        cursor: pointer;
+    }
+
+        .pf use {
+            transition: all .6s;
+        }
+
+        .pf:hover {
+            width: 40px;
+            height: 40px;
+        }
+
+            .pf:hover use {
+                /*transform: scale(1.5);*/
+                padding: 2px;
+            }
+
+    .tit {
+        font-size: 16px;
+        margin: 0 0 5px;
+    }
+
+    .pfDiv {
+        padding: 10px;
+        display: none;
+        position: absolute;
+        left: 50px;
+        bottom: 40px;
+        transform: translateX(-50%);
+        background: #fff;
+        z-index: 9999999999;
+        box-shadow: 0 0 17px 4px rgba(0,0,0,.2);
+        border-radius: 10px;
+    }
+
+    .bqdiv {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .bqdiv span {
+            display: block;
+            margin: 0;
+            width: 60px;
+
+        }
+</style>
+</head>
+<body>
+
+	<div class="msgWin" style="display:none"></div>
+	<div class="csBtn"><i class="layui-icon">&#xe626;</i></div>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/layui-src/dist/layui.all.js"></script>
+	<script type="text/javascript" src="node_modules/layui-src/dist/layui.js"></script>
+	<script type="text/javascript" src="js/iconfont.js"></script>
+	<script type="text/javascript" src="js/csWindow.js"></script>
+</body>
+</html>

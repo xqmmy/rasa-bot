@@ -1,0 +1,13 @@
+/* 灰色背景 */
+.gary{
+	background: #393D49;
+}
+.fontWrite{
+	color: #fff;
+}
+.fontC{
+	color: #393D49;
+}
+.fontC:hover{
+	opacity: .6;
+}

@@ -1,0 +1,80 @@
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+Collecting tensorflow
+  Downloading https://mirrors.aliyun.com/pypi/packages/97/ae/0b08f53498417914f2274cc3b5576d2b83179b0cbb209457d0fde0152174/tensorflow-2.3.0-cp36-cp36m-manylinux2010_x86_64.whl (320.4 MB)
+Collecting grpcio>=1.8.6
+  Downloading https://mirrors.aliyun.com/pypi/packages/5a/42/262913f967217874ae66734b52077833e2153b7b3a55a45bf996c7ee4833/grpcio-1.30.0-cp36-cp36m-manylinux2010_x86_64.whl (3.0 MB)
+Collecting google-pasta>=0.1.8
+  Downloading https://mirrors.aliyun.com/pypi/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Requirement already satisfied: termcolor>=1.1.0 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from tensorflow) (1.1.0)
+Collecting scipy==1.4.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/dc/29/162476fd44203116e7980cfbd9352eef9db37c49445d1fec35509022f6aa/scipy-1.4.1-cp36-cp36m-manylinux1_x86_64.whl (26.1 MB)
+Collecting h5py<2.11.0,>=2.10.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/60/06/cafdd44889200e5438b897388f3075b52a8ef01f28a17366d91de0fa2d05/h5py-2.10.0-cp36-cp36m-manylinux1_x86_64.whl (2.9 MB)
+Collecting wrapt>=1.11.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/82/f7/e43cefbe88c5fd371f4cf0cf5eb3feccd07515af9fd6cf7dbf1d1793a797/wrapt-1.12.1.tar.gz (27 kB)
+Requirement already satisfied: six>=1.12.0 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from tensorflow) (1.15.0)
+Collecting astunparse==1.6.3
+  Downloading https://mirrors.aliyun.com/pypi/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting numpy<1.19.0,>=1.16.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/b3/a9/b1bc4c935ed063766bce7d3e8c7b20bd52e515ff1c732b02caacf7918e5a/numpy-1.18.5-cp36-cp36m-manylinux1_x86_64.whl (20.1 MB)
+Collecting opt-einsum>=2.3.2
+  Downloading https://mirrors.aliyun.com/pypi/packages/bc/19/404708a7e54ad2798907210462fd950c3442ea51acc8790f3da48d2bee8b/opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+Requirement already satisfied: wheel>=0.26 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from tensorflow) (0.34.2)
+Collecting tensorflow-estimator<2.4.0,>=2.3.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/e9/ed/5853ec0ae380cba4588eab1524e18ece1583b65f7ae0e97321f5ff9dfd60/tensorflow_estimator-2.3.0-py2.py3-none-any.whl (459 kB)
+Collecting keras-preprocessing<1.2,>=1.1.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)
+Collecting absl-py>=0.7.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/1a/53/9243c600e047bd4c3df9e69cfabc1e8004a82cac2e0c484580a78a94ba2a/absl-py-0.9.0.tar.gz (104 kB)
+Collecting gast==0.3.3
+  Downloading https://mirrors.aliyun.com/pypi/packages/d6/84/759f5dd23fec8ba71952d97bcc7e2c9d7d63bdc582421f3cd4be845f0c98/gast-0.3.3-py2.py3-none-any.whl (9.7 kB)
+Collecting protobuf>=3.9.2
+  Downloading https://mirrors.aliyun.com/pypi/packages/63/14/dc43f81adc543c435cfeb45dd4ac048a97a1eb621c2ccb68ab3d15118737/protobuf-3.12.4-cp36-cp36m-manylinux1_x86_64.whl (1.3 MB)
+Collecting tensorboard<3,>=2.3.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/e9/1b/6a420d7e6ba431cf3d51b2a5bfa06a958c4141e3189385963dc7f6fbffb6/tensorboard-2.3.0-py3-none-any.whl (6.8 MB)
+Requirement already satisfied: setuptools in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from protobuf>=3.9.2->tensorflow) (49.2.0.post20200714)
+Collecting google-auth<2,>=1.6.3
+  Downloading https://mirrors.aliyun.com/pypi/packages/cb/02/00e06ffa98fd0f11f36f808511012fa1fce41e4f79fa35dc7c515364ed01/google_auth-1.20.0-py2.py3-none-any.whl (91 kB)
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/7b/b8/88def36e74bee9fce511c9519571f4e485e890093ab7442284f4ffaef60b/google_auth_oauthlib-0.4.1-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: requests<3,>=2.21.0 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from tensorboard<3,>=2.3.0->tensorflow) (2.24.0)
+Collecting markdown>=2.6.8
+  Downloading https://mirrors.aliyun.com/pypi/packages/a4/63/eaec2bd025ab48c754b55e8819af0f6a69e2b1e187611dd40cbbe101ee7f/Markdown-3.2.2-py3-none-any.whl (88 kB)
+Collecting tensorboard-plugin-wit>=1.6.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/b6/85/5c5ac0a8c5efdfab916e9c6bc18963f6a6996a8a1e19ec4ad8c9ac9c623c/tensorboard_plugin_wit-1.7.0-py3-none-any.whl (779 kB)
+Requirement already satisfied: werkzeug>=0.11.15 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from tensorboard<3,>=2.3.0->tensorflow) (1.0.1)
+Collecting pyasn1-modules>=0.2.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting rsa<5,>=3.1.4; python_version >= "3.5"
+  Downloading https://mirrors.aliyun.com/pypi/packages/1c/df/c3587a667d6b308fadc90b99e8bc8774788d033efcc70f4ecaae7fad144b/rsa-4.6-py3-none-any.whl (47 kB)
+Collecting cachetools<5.0,>=2.0.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/cd/5c/f3aa86b6d5482f3051b433c7616668a9b96fbe49a622210e2c9781938a5c/cachetools-4.1.1-py3-none-any.whl (10 kB)
+Collecting requests-oauthlib>=0.7.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/a3/12/b92740d845ab62ea4edf04d2f4164d82532b5a0b03836d4d4e71c6f3d379/requests_oauthlib-1.3.0-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: chardet<4,>=3.0.2 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow) (2020.6.20)
+Requirement already satisfied: idna<3,>=2.5 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /root/anaconda3/envs/faq-rasa/lib/python3.6/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow) (1.25.10)
+Collecting importlib-metadata; python_version < "3.8"
+  Downloading https://mirrors.aliyun.com/pypi/packages/8e/58/cdea07eb51fc2b906db0968a94700866fc46249bdc75cac23f9d13168929/importlib_metadata-1.7.0-py2.py3-none-any.whl (31 kB)
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading https://mirrors.aliyun.com/pypi/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting oauthlib>=3.0.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/05/57/ce2e7a8fa7c0afb54a0581b14a65b56e62b5759dbc98e80627142b8a3704/oauthlib-3.1.0-py2.py3-none-any.whl (147 kB)
+Collecting zipp>=0.5
+  Downloading https://mirrors.aliyun.com/pypi/packages/b2/34/bfcb43cc0ba81f527bc4f40ef41ba2ff4080e047acb0586b56b3d017ace4/zipp-3.1.0-py3-none-any.whl (4.9 kB)
+Building wheels for collected packages: wrapt, absl-py
+  Building wheel for wrapt (setup.py): started
+  Building wheel for wrapt (setup.py): finished with status 'done'
+  Created wheel for wrapt: filename=wrapt-1.12.1-cp36-cp36m-linux_x86_64.whl size=75514 sha256=98346101a3828539038815f8ca31ced53e266b29c51b4f221a753e291dce13a4
+  Stored in directory: /tmp/pip-ephem-wheel-cache-thj4v71s/wheels/9e/47/e8/a7db270d08cff98ddd977d4514fb0d8ff51a9470f0ae22269d
+  Building wheel for absl-py (setup.py): started
+  Building wheel for absl-py (setup.py): finished with status 'done'
+  Created wheel for absl-py: filename=absl_py-0.9.0-py3-none-any.whl size=121931 sha256=0669c6c6ed07026e6e52f7299b768bdf61fd90e44f82e70609ecfd6e874b6726
+  Stored in directory: /tmp/pip-ephem-wheel-cache-thj4v71s/wheels/93/57/cf/9f2f468a53488998359931532f958b0579dbca51ba2b00b90d
+Successfully built wrapt absl-py
+Installing collected packages: grpcio, google-pasta, numpy, scipy, h5py, wrapt, astunparse, opt-einsum, tensorflow-estimator, keras-preprocessing, absl-py, gast, protobuf, pyasn1, pyasn1-modules, rsa, cachetools, google-auth, oauthlib, requests-oauthlib, google-auth-oauthlib, zipp, importlib-metadata, markdown, tensorboard-plugin-wit, tensorboard, tensorflow
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.13.3
+    Uninstalling numpy-1.13.3:
+      Successfully uninstalled numpy-1.13.3
